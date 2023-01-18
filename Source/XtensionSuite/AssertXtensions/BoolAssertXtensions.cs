@@ -2,7 +2,7 @@
 // Website : http://www.nallenthal.in
 // Website : http://lazypro.nallenthal.in
 
-namespace Nallenthal.Common.XtensionSuite.BDDExtensions.BoolBDDXtensions
+namespace Nallenthal.Common.XtensionSuite.AssertExtensions
 {
      using System;
      using Nallenthal.Common;
@@ -12,8 +12,8 @@ namespace Nallenthal.Common.XtensionSuite.BDDExtensions.BoolBDDXtensions
      /// This class contains set of extension methods to ascertain boolean values.
      /// These can be used for unit testing and general validations.
      /// </summary>
-     public static class BoolBDDXtensions
-     {
+     public static class BoolAssertXtensions
+    {
          /// <summary>
          /// Ensures that the given boolean value is False.
          /// Checks the given boolean value and throws a <see cref="ValueMismatchException{T}"/>, if the item is not false.

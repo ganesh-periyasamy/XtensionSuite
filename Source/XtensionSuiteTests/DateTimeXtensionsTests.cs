@@ -7,11 +7,8 @@ using System.Runtime.InteropServices;
 
 using Nallenthal.Common;
 using Nallenthal.Common.XtensionSuite.DateTimeXtensions;
-using Nallenthal.Common.XtensionSuite.BDDExtensions;
+using Nallenthal.Common.XtensionSuite.AssertExtensions;
 using NUnit.Framework;
-using Nallenthal.Common.XtensionSuite.BDDExtensions.BoolBDDXtensions;
-using Nallenthal.Common.XtensionSuite.BDDExtensions.StringBDDXtensions;
-using Nallenthal.Common.XtensionSuite.BDDExtensions.NumericBDDXtensions;
 
 namespace Nallenthal.Common.XtensionSuiteTests
 {

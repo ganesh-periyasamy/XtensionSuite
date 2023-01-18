@@ -6,8 +6,7 @@ using System.Linq;
 using System.Collections.Generic;
 using NUnit.Framework;
 using Nallenthal.Common.XtensionSuite.DictionaryXtensions;
-using Nallenthal.Common.XtensionSuite.BDDExtensions.BoolBDDXtensions;
-using Nallenthal.Common.XtensionSuite.BDDExtensions.NumericBDDXtensions;
+using Nallenthal.Common.XtensionSuite.AssertExtensions;
 
 namespace Nallenthal.Common.XtensionSuiteTests
 {

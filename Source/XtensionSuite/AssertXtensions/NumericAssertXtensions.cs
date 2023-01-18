@@ -4,13 +4,13 @@
 using System;
 using Nallenthal.Common;
 
-namespace Nallenthal.Common.XtensionSuite.BDDExtensions.NumericBDDXtensions
+namespace Nallenthal.Common.XtensionSuite.AssertExtensions
 {
     /// <summary>
     /// This Class contains set of extension methods to ascertain values of objects that implement <see cref="IComparable"/>.
     /// These can be used for comparing numbers in unit tests and during validations.
     /// </summary>
-    public static class NumericBDDXtensions 
+    public static class NumericAssertXtensions
     {
         /// <summary>
         /// Ensures that the firstItem is greater than the secondItem.
@@ -101,13 +101,5 @@ namespace Nallenthal.Common.XtensionSuite.BDDExtensions.NumericBDDXtensions
                 throw new ValueMismatchException<string>("a value NOT equals to " + secondItem.ToString(), firstItem.ToString());
             }
         }
-    }
-    
-    /// <summary>
-    /// This Namespace contains BDD style extension methods for numbers.
-    /// </summary>
-    [System.Runtime.CompilerServices.CompilerGenerated]
-    class NamespaceDoc
-    {
     }
 }

@@ -3,8 +3,7 @@
 // Website : http://lazypro.nallenthal.in
 using System;
 using Nallenthal.Common.XtensionSuite.GenericXtensions;
-using Nallenthal.Common.XtensionSuite.BDDExtensions.BoolBDDXtensions;
-using Nallenthal.Common.XtensionSuite.BDDExtensions.NumericBDDXtensions;
+using Nallenthal.Common.XtensionSuite.AssertExtensions;
 using NUnit.Framework;
 using System.Collections.Generic;
 
