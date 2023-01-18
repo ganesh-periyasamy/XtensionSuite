@@ -4,8 +4,7 @@
 using System;
 using NUnit.Framework;
 using Nallenthal.Common.XtensionSuite.ListXtensions;
-using Nallenthal.Common.XtensionSuite.BDDExtensions.BoolBDDXtensions;
-using Nallenthal.Common.XtensionSuite.BDDExtensions.NumericBDDXtensions;
+using Nallenthal.Common.XtensionSuite.AssertExtensions;
 using System.Collections.Generic;
 
 namespace Nallenthal.Common.XtensionSuiteTests

@@ -2,15 +2,14 @@
 // Website : http://www.nallenthal.in
 // Website : http://lazypro.nallenthal.in
 using System;
-using Nallenthal.Common;
 
-namespace Nallenthal.Common.XtensionSuite.BDDExtensions.StringBDDXtensions
+namespace Nallenthal.Common.XtensionSuite.AssertXtensions
 {
     /// <summary>
-    /// This class contains set of extension methods to ascertain value of a given <see cref="String"/>
+    /// This class contains set of extension methods to ascertain value of a given <see cref="string"/>
     /// These can be used for unit tests and in general validations.
     /// </summary>
-    public static class StringBDDXtensions
+    public static class StringAssertXtensions
     {
         /// <summary>
         /// Ensures that the first string is equal to the second string.
@@ -26,11 +25,11 @@ namespace Nallenthal.Common.XtensionSuite.BDDExtensions.StringBDDXtensions
             }
         }
     }
-    
+
     /// <summary>
-    /// This Namespace contains BDD style extension methods for <see cref="String"/>
+    /// This Namespace contains BDD style extension methods for <see cref="string"/>
     /// </summary>
-     [System.Runtime.CompilerServices.CompilerGenerated]
+    [System.Runtime.CompilerServices.CompilerGenerated]
     class NamespaceDoc
     {
     }
